@@ -1,1 +1,17 @@
 # CS-300
+
+  In this course’s projects, I was working on designing a program that was meant to access and work with data from text files. To be exact, by implementing and utilizing a vector, it aimed to load a number of Computer Science courses from a .txt file and work with the loaded data. The used .txt file consisted of numbers and names of courses as well as their prerequisites. To begin with, the program outputs a basic menu console giving users four options to choose from. Case 1 prompts the user to type in a file’s name and lets them load all data from the .txt file. Case 2 option displays all the loaded courses as well as their numbers. Case 3 allows users to search for a particular course. If the course is found, its name is displayed together with its prerequisites. If the course is not found, the user is notified. Upon the completion of each operation, the user is returned to the initial menu, and they may proceed with another option. If the user’s input is unrecognized, the program notifies the user and goes back to displaying the menu. When the case 4is chosen, the initial menu is no longer displayed, and we exit the program.
+  
+  A data structure is a specialized format for organizing, processing, and storing data in computer memory. It provides efficient access to and manipulation of data, allowing programmers to perform specific tasks more efficiently. Data structures provide the basis for building algorithms that solve complex problems and play a key role in shaping the performance and functionality of software.
+In computer programming, data structures handle different types of data, such as integers, floating point numbers, characters, and strings, and organize them according to the needs of the application. Properly designed data structures can greatly improve the efficiency of a software solution by affecting how quickly and easily it can process and store large amounts of data.
+
+  In the first project I created a pseudocode to have a better idea of how to structure the code. Additionally, I analyzed different data structures that could potentially be used for storing the data from a file. I outlined advantages and disadvantages of such structures as vector, hash table, and binary search tree. I also conducted a Big O runtime analysis of some code functions for the above-mentioned data structures. Having considered the needs of the project as well as all the pluses and minuses of those structures, I decided to implement a vector structure in my code. 
+  
+  My work on these two projects made me realize a couple things about the nature of programming and changed the way I write code. I realized that despite the fact that a program is executed by a machine, the code is written by people and for people. Modern program projects are developed by groups of programmers, sometimes separated not only by office space, but also by continents and oceans. The level of technology development allows using skills of the best developers regardless of the location of their employers. This approach to development imposes serious requirements to the code quality, in particular, to its readability and comprehensibility. I see that my coding evolved and improved in the following aspects:
+  
+  1.	maintaining a uniform code style;
+  2.	avoiding using unknown "magical numbers";
+  3.	using meaningful names for variables, functions, classes;
+  4.	separating interface from implementation;
+  5.	using concise but meaningful in-line comments;
+6.	smart handling of errors and unexpected inputs.
